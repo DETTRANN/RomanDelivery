@@ -1,0 +1,45 @@
+* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    width: 300px;
+    height: 4vh;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.img {
+    width: 50%;
+}
+
+.imgfruit {
+    height: 80vh;
+}
+
+a {
+    background-color: #E1A2A2;
+    color: white;
+    height: 4vh;
+    width: 307px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 4%;
+}
+
+.txt1 {
+    width: 300px;
+}
+
+span {
+    font-weight: bold;
+}

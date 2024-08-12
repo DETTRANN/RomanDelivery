@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 16vh;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.a_header {
+    color: #4A4A4A;
+    text-decoration: none;
+    margin-right: 4%;
+    font-size: 20px;
+}
+
+.address {
+    height: 6vh;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_address {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 5vh;
+    width: 230px;
+}
+
+.a_header_right {
+    text-decoration: none;
+    color: #C17070;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3.2%;
+}
+
+.saldo {
+    color: #4A4A4A;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 40%;
+}
+
+h3 {
+    color: #464646;
+    font-weight: 100;
+}
+
+.txt {
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.login {
+    width: 212.5px;
+    height: 3.5vh;
+    border-radius: 10px;
+}
+
+.email {
+    width: 450px;
+    height: 3.5vh;
+    border-radius: 10px;
+    margin-bottom: 1%;
+}
+
+.mensagem {
+    border-radius: 10px;
+    white-space: pre-wrap;
+}
+
+.enviar {
+    display: flex;   
+    background-color: #E1A2A2;
+    color: white;
+    text-decoration: none;
+    width: 458px;
+    height: 4vh;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}

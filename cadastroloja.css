@@ -1,0 +1,118 @@
+header {
+    display: flex;
+    background-color: white;
+    height: 16vh;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.a_header {
+    color: #4A4A4A;
+    text-decoration: none;
+    margin-right: 4%;
+    font-size: 20px;
+}
+
+span {
+    color: #C17070;
+}
+
+.address {
+    height: 6vh;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_address {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 5vh;
+    width: 230px;
+}
+
+.a_header_right {
+    text-decoration: none;
+    color: #C17070;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3.2%;
+}
+
+.saldo {
+    color: #4A4A4A;
+    font-size: 20px;
+    margin-left: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+}
+
+section {
+    background-color: #C17070;
+    border-radius: 10px;
+    width: 30%;
+    height: 35vh;
+}
+
+.sectionleft {
+    margin-right: 5%;
+    display: flex;
+}
+
+.sectionleft>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.5%;
+    margin-right: 7%;
+    color: white;
+    height: 35vh;
+    justify-content: space-around;
+}
+
+.sectionright {
+    display: flex;
+}
+
+.sectionright>div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4.5%;
+    margin-right: 7%;
+    color: white;
+    height: 35vh;
+    justify-content: space-around;
+}
+
+.a_cadastrar {
+    background-color: white;
+    color: #C17070;
+    border-radius: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5vh;
+    width: 90%;
+}
+
+.section_title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section_title~div {
+    font-size: 20px;
+}
