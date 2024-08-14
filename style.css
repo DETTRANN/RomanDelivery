@@ -44,9 +44,9 @@ header {
 }
 
 section {
-    background-image: url(imgs/desktop-background.png);
+    background-image: url(https://www.ifood.com.br/static/images/groceries-landing-page/desktop-background.png);
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
     display: flex;
     justify-content: center;
