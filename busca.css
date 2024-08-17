@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    height: 16vh;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.a_header {
+    color: #4A4A4A;
+    text-decoration: none;
+    margin-right: 4%;
+    font-size: 20px;
+}
+
+.address {
+    height: 6vh;
+    background-color: #F2F2F2;
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_address {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 5vh;
+    width: 230px;
+}
+
+.a_header_right {
+    text-decoration: none;
+    color: #C17070;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3.2%;
+}
+
+#headercart {
+    display: flex; 
+    width: 9%; 
+    align-items: center;
+}
+
+.a_header_cart {
+    width: 18%;
+    margin-right: 3%;
+}
+
+.logout {
+    margin: 0;
+    width: 5%;
+}
+
+.saldo {
+    color: #717171;
+    font-size: 18px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: lighter;
+    margin-left: 5%;
+    margin-bottom: 3%; 
+}
+
+span {
+    color: #C17070;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+section:hover {
+    width: 260px;
+    border: 0.2px solid rgb(209, 209, 209);
+    align-items: center;
+}
+
+.comida {
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.preco {
+    font-weight: 100;
+    color: #717171;
+}

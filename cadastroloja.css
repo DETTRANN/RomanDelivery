@@ -43,10 +43,26 @@ span {
     margin-right: 3.2%;
 }
 
+#headercart {
+    display: flex; 
+    width: 9%; 
+    align-items: center;
+}
+
+.a_header_cart {
+    width: 18%;
+    margin-right: 3%;
+}
+
+.logout {
+    margin: 0;
+    width: 5%;
+}
+
 .saldo {
-    color: #4A4A4A;
-    font-size: 20px;
-    margin-left: 3%;
+    color: #717171;
+    font-size: 18px;
+    margin: 0;
 }
 
 h1 {
